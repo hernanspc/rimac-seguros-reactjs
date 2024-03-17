@@ -1,14 +1,19 @@
-// src/components/Header/_header.scss
+.wrapper_header {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 11;
+}
 
 .logo {
     font-size: 1.5rem;
 }
 
 .header {
-    // padding: 1rem; 
+    padding: 1rem;
     padding: 2px 120px;
     /* top right bottom left */
-    width: 1360px;
     height: 64px;
     display: flex;
     justify-content: space-between;

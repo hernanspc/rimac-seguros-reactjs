@@ -1,0 +1,45 @@
+.section {}
+
+.blurasset {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.blurasset1 {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.blurassetleft {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.blurassetleft2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+@media (max-width: 767.9375px) {
+    .blurasset {
+        display: none !important;
+    }
+
+    .blurassetleft {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .blurasset1 {
+        display: none !important;
+    }
+
+    .blurassetleft2 {
+        display: none !important;
+    }
+}
