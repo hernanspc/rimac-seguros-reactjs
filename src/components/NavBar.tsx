@@ -17,7 +17,7 @@ export function NavBar() {
                     </div>
 
                     <div className="header_right">
-                        <button type='button'>
+                        <button type='button' className="buttoncontainer">
                             ¡Compra por este medio!
                         </button>
 

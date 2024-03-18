@@ -17,18 +17,27 @@
     height: 56px;
 }
 
-
-
 .logo {
     font-size: 1.5rem;
 }
 
-
+.buttoncontainer {
+    margin-right: 10px;
+    line-height: 1rem;
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+    letter-spacing: .2px;
+    cursor: pointer;
+    -webkit-appearance: button;
+    background-color: transparent;
+    background-image: none;
+}
 
 
 .title_header {
     font-family: br-sonoma-medium, sans-serif;
-    // font-family: BR Sonoma;
     font-size: 12px;
     font-weight: 600;
     line-height: 16px;
