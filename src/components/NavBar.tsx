@@ -8,14 +8,26 @@ import './NavBar.scss'; // Importa los estilos SCSS
 
 export function NavBar() {
     return (
-        <header className="header">
-            <img src={logo} alt="Logo" />
-            <div className="container_button_title">
-                <h1 className="title_header">¡Compra por este medio!</h1>
-                <a className="wrap_phone" href="tel:+0114116001">
-                    <FaPhoneAlt />
-                    <h3 className="text_title_button">(01) 411 6001</h3>
-                </a>
+        <header className="header_login">
+            <div className="header">
+                <nav className="container">
+
+                    <div className="header_logo">
+                        <img src={logo} alt="Logo" />
+                    </div>
+
+                    <div className="header_right">
+                        <button type='button'>
+                            ¡Compra por este medio!
+                        </button>
+
+                        <a className="wrap_phone" href="tel:+0114116001">
+                            <FaPhoneAlt />
+                            <div className="text_title_button">(01) 411 6001</div>
+                        </a>
+                    </div>
+
+                </nav>
             </div>
         </header>
     )

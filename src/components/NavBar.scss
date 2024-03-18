@@ -1,47 +1,63 @@
- .logo {
-     font-size: 1.5rem;
- }
+.header_login {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 11;
+}
 
- .header {
-     padding: 1rem;
-     padding: 2px 120px;
-     /* top right bottom left */
-     height: 64px;
-     display: flex;
-     justify-content: space-between;
- }
+.header {
+    background-color: inherit;
+}
 
- .title_header {
-     font-family: br-sonoma-medium, sans-serif;
-     // font-family: BR Sonoma;
-     font-size: 12px;
-     font-weight: 600;
-     line-height: 16px;
-     text-align: right;
-     letter-spacing: .2px;
-     cursor: pointer;
-     margin-right: 23px;
- }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+}
 
- .text_title_button {
-     font-family: 'BR Sonoma';
-     font-size: 18px;
-     font-weight: 700;
-     line-height: 20px;
-     letter-spacing: 0.4px;
-     text-align: right;
- }
 
- .container_button_title {
-     display: flex;
-     flex-direction: row;
-     align-items: center;
- }
 
- .wrap_phone {
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     column-gap: 0.5rem;
-     color: inherit;
- }
+.logo {
+    font-size: 1.5rem;
+}
+
+
+
+
+.title_header {
+    font-family: br-sonoma-medium, sans-serif;
+    // font-family: BR Sonoma;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: .2px;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.header_right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wrap_phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.5rem;
+    color: inherit;
+}
+
+
+.text_title_button {
+    font-family: 'BR Sonoma';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    text-align: right;
+}

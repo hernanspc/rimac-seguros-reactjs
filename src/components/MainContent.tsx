@@ -9,24 +9,27 @@ import './MainContent.scss';
 
 const MainContent = () => {
     return (
-        <div>
-            <div className="container_form">
+        <section className="login">
+
+            <div className="container">
                 <div className="login_left">
                     <img src={portadalogin} alt="portada rimac"></img>
                 </div>
-
-                <div>
-
+                <div className="login_right">
+                    <div></div>
+                    <div></div>
+                    <form action=""></form>
                 </div>
             </div>
-            <section>
+
+            <div>
                 <img className="blurasset" src={blurasset} ></img>
                 <img className="blurasset1" src={blurasset1} ></img>
                 <img className="blurassetleft" src={blurassetleft} ></img>
                 <img className="blurassetleft2" src={blurassetleft2} ></img>
-            </section>
-        </div>
+            </div>
 
+        </section>
     )
 }
 
