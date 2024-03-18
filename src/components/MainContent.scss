@@ -143,6 +143,13 @@ img {
         border-radius: 20px;
         overflow: hidden;
     }
+
+    .login_right_mobile {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        justify-content: space-between;
+    }
 }
 
 @media (min-width: 768px) {
